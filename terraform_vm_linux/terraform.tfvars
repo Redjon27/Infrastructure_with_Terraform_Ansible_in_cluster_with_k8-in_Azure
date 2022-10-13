@@ -1,0 +1,9 @@
+resource_group_name         = "k8s-rg"
+resource_group_location     = "UK South"
+virtual_network_name        = "vnet"
+subnet_name                 = "subnet"
+public_ip_name              = "IP"
+network_security_group_name = "nsg"
+network_interface_name      = "nic"
+master_count                = 1
+worker_count                = 2
